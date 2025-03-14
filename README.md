@@ -1,4 +1,4 @@
-# Webhook Engine
+# Template
 > Wixonic's config to setup a new repo.
 
 [![Patreon](https://img.shields.io/badge/Patreon-black?style=flat&logo=patreon)](https://patreon.com/Wixonic)
