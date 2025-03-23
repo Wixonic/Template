@@ -64,9 +64,9 @@ const rl = readline.createInterface({
 });
 
 const webhooks = [
-	{ url: config.urls[0], filter: event => ["push", "create", "delete"].includes(event) },
-	{ url: config.urls[1], filter: event => ["release"].includes(event) },
-	{ url: config.urls[2], filter: event => !["push", "create", "delete", "release"].includes(event) }
+	{ url: config.urls[0], filter: (event) => ["push", "create", "delete"].includes(event) },
+	{ url: config.urls[1], filter: (event) => ["release"].includes(event) },
+	{ url: config.urls[2], filter: (event) => !["push", "create", "delete", "release"].includes(event) }
 ];
 
 async function addWebhooks(repoName) {
