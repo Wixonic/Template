@@ -79,9 +79,9 @@ async function addWebhooks(repoName) {
 			visibility: "all"
 		})).data;
 
-		const selectedRepo = repos.find(repo => {
+		const selectedRepo = repos.find((repo) => {
 			if (repo.name == repoName) return true;
-			else console.log(value.full_name);
+			else console.log(repo.full_name);
 		});
 		if (!selectedRepo) {
 			console.log(`Repository ${repoName} not found.`);
