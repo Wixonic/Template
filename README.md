@@ -2,6 +2,7 @@
 > Wixonic's config to setup a new repo.
 
 [![Patreon](https://img.shields.io/badge/Patreon-black?style=flat&logo=patreon)](https://patreon.com/Wixonic)
+[![GitHub Release](https://img.shields.io/github/v/release/Wixonic/Webhook-Engine?display_name=tag&style=flat&label=Version)](https://github.com/Wixonic/Webhook-Engine/releases)
 
 - [Support](https://github.com/Wixonic/Webhook-Engine/blob/Default/.github/SUPPORT.md)
 - [Code of Conduct](https://github.com/Wixonic/Webhook-Engine/blob/Default/.github/CODE_OF_CONDUCT.md)
