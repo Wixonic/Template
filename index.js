@@ -1,6 +1,6 @@
 const readline = require("readline");
 
-const config = require("./config.json");
+const config = require("./secrets.json");
 
 const events = [
 	"branch_protection_configuration",
